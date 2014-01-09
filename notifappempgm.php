@@ -11,6 +11,10 @@
 	{
 		array_push($arrperiod, $rowperiod);
 	}
+	
+	
+	fdsfdsfsf
+	
 	//print_r($arrperiod[0]['to_date']);
 	foreach($arrperiod as $a=>$v){
 		//echo $a;
