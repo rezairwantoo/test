@@ -4,8 +4,6 @@
 	$datas = mysql_query("SELECT * FROM period where period_id >= 60")
 	or die(mysql_error()); 
 	$arremployee = array();
-	$arrperiod = array();
-	$message = "";
 	//$rowperiod = mysql_fetch_array($data, MYSQL_ASSOC);
 	while($rowperiod = mysql_fetch_array($datas, MYSQL_ASSOC))
 	{
